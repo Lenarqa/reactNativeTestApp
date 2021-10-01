@@ -23,7 +23,8 @@ export const AddTodo = (props) => {
                 value={value}
                 placeholder="Введите значение задания"
                 autoCorrect={false}
-                autoCapitalize='none'
+                autoCapitalize="none"
+                // keyboardType="number-pad"//test
             />
             <Button title="Добавить" onPress={pressEnter}/>
         </View>
